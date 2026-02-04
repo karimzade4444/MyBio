@@ -1,259 +1,332 @@
-*{
-    margin: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  box-sizing: border-box;
 }
-body{
-    position: relative;
+body {
+  position: relative;
 }
-.header{
-    width: 100%;
-    height: 70px;
-    background: #141414;
-box-shadow: 0px 20px 20px rgb(188, 188, 188);
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: sticky;
-    top: 0;
+.header {
+  width: 100%;
+  height: 70px;
+  background: #141414;
+  box-shadow: 0px 20px 20px rgb(188, 188, 188);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0;
 }
-.HeaderInto{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 200px;
+.HeaderInto {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 200px;
 }
-.zet{
-    width: 20%;
+.headin{
+    display: none;
 }
-.HeaderBottom{
-    margin-top: 50px;
-width: 100%;
-background-color: #ffffff;
+.zet {
+  width: 20%;
+}
+.HeaderBottom {
+  margin-top: 50px;
+  width: 100%;
+  background-color: #ffffff;
+}
+.IMGme {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Me {
+  width: 80%;
+  border-radius: 50px;
+  box-shadow: 0 0 30px rgb(0, 0, 0);
+  border-bottom: 3px solid orange;
+}
+h1 {
+  background: linear-gradient(
+    90.48deg,
+    #ff6f00 0.34%,
+    #fd6f00 42.06%,
+    #ca5900 90.34%
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text {
+  text-align: center;
+  padding-top: 30px;
+}
+.social {
+  width: 40%;
+  margin: auto;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-bottom: 2px solid black;
+}
+.CV {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+.but {
+  width: 70%;
+  height: 40px;
+  border-radius: 50px;
+  border: 1.5px solid #ff6600;
+  background: #ff660094;
+  box-shadow: 0px 0px 50px 0px #ff6600be;
+  color: white;
+  text-transform: uppercase;
+}
+.AboutT {
+  width: 50%;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  padding-top: 80px;
+  border-bottom: 2px solid black;
+}
+.AboutB {
+  width: 80%;
+  margin: auto;
+  line-height: 1.6;
+  text-align: justify;
+  padding-top: 30px;
+}
+.Special {
+  width: 50%;
+  padding-left: 20px;
+  border-bottom: 2px solid black;
+  padding-top: 50px;
+}
+.SpecBox {
+  width: 80%;
+  margin: auto;
+  padding-top: 10px;
+  line-height: 2;
+}
+.Spec {
+  display: flex;
+  align-items: center;
+  line-height: 2;
+  gap: 20px;
+  padding-top: 20px;
+}
+.Bodier {
+  width: 100%;
+  background: linear-gradient(to bottom, rgb(18, 18, 18), gray, rgb(7, 7, 7));
+  margin-top: 20px;
+  box-shadow: 0 0 20px black;
+}
+.MySkills {
+  width: 80%;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+  gap: 20px;
+}
 
+.Skill {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  border: 6px solid orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.IMGme{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.s3 {
+  border: 6px solid gray;
 }
-.Me{
-    width: 80%;
-    border-radius: 50px;
-    box-shadow: 0 0 30px rgb(0, 0, 0);
-    border-bottom: 3px solid orange;
-    
+.Body {
+  margin-top: 50px;
+  width: 100%;
 }
-h1{
-    background: linear-gradient(90.48deg, #ff6f00 0.34%, #FD6F00 42.06%, #CA5900 90.34%);
-    background-clip: text;
--webkit-text-fill-color: transparent;
+.PBOX {
+  width: 90%;
+  height: 300px;
+  background: radial-gradient(circle, orange, rgb(0, 0, 0), orange);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(255, 166, 0, 0.573);
 }
-.text{
-    text-align: center;
-    padding-top: 30px;
-}
-.social{
-    width: 40%;
-    margin: auto;
-    padding-top: 80px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    border-bottom: 2px solid black;
-}
-.CV{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 40px;
-}
-.but{
-width: 70%;
-height: 40px;
-border-radius: 50px;
-border: 1.5px solid #FF6600;
-background: #ff660094;
-box-shadow: 0px 0px 50px 0px #ff6600be;
-color: white;
-text-transform: uppercase;
-}
-.AboutT{
-    width: 50%;
-    padding-left: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    gap: 10px;
-    padding-top: 80px;
-    border-bottom: 2px solid black;
-}
-.AboutB{
-    width: 80%;
-    margin: auto;
-line-height: 1.6;
-text-align: justify;
-padding-top: 30px;
-
-}
-.Special{
-    width: 50%;
-    padding-left: 20px;
-    border-bottom: 2px solid black;
-    padding-top: 50px;
-}
-.SpecBox{
-    width: 80%;
-    margin: auto;
-    padding-top: 10px;
-    line-height: 2;
-   
-}
-.Spec{
-    display: flex;
-    align-items: center;
-    line-height: 2;
-    gap: 20px;
-    padding-top: 20px;
-}
-.Bodier{
-    width: 100%;
-    background: linear-gradient(to bottom, rgb(18, 18, 18),gray, rgb(7, 7, 7));
-    margin-top: 20px;
-    box-shadow: 0 0 20px black;
-}
-.MySkills{
-    width: 80%;
-    padding-top: 30px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: auto;
-    gap: 20px;
-}
-
-.Skill{
-    width: 70px;
-    height: 70px;
-    border-radius: 50px;
-    border: 6px solid orange;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.s3{
-    border: 6px solid gray;
-}
-.Body{
-    margin-top: 50px;
-    width: 100%;
-}
-.PBOX{
-    width: 90%;
-    height: 300px;
-    background: radial-gradient(circle, orange, rgb(0, 0, 0), orange);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-    border-radius: 20px;
-    box-shadow: 0 0 30px rgba(255, 166, 0, 0.573);
-}
-.footer{
-    width: 90%;
-    height: 500px;
-    margin: auto;
-
+.footer {
+  width: 90%;
+  height: 500px;
+  margin: auto;
 }
 .ContactME {
-   width: 100%;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-wrap: wrap;
-   color: white;
-   gap: 10px;
-   margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: white;
+  gap: 10px;
+  margin-top: 10px;
 }
-.input{
-    width: 300px;
-    height: 40px;
-    padding-left: 20px;
-    border-radius: 20px;
-    border: 1.5px solid #FF6600;
-background: #ff660094;
-color: white;
+.input {
+  width: 300px;
+  height: 40px;
+  padding-left: 20px;
+  border-radius: 20px;
+  border: 1.5px solid #ff6600;
+  background: #ff660094;
+  color: white;
 }
-input::placeholder{
+input::placeholder {
+  color: white;
+}
+.text1 {
+  height: 200px;
+  resize: none;
+}
+textarea::placeholder {
+  color: white;
+}
+.button {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+.send {
+  margin-top: 20px;
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  color: black;
+  font-weight: bolder;
+  border: 1.5px solid #ff6600;
+  background: white;
+  text-transform: uppercase;
+}
+.footerbottom {
+  width: 100%;
+  background-color: rgba(12, 12, 12, 0.875);
+  margin-top: 50px;
+}
+.zet2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+.services {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 30px;
+  padding-top: 20px;
+}
+.mail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-top: 50px;
+  gap: 10px;
+}
+.line {
+  width: 90%;
+  margin: auto;
+  border: 1px solid whitesmoke;
+  margin-top: 50px;
+}
+.end {
+  color: gray;
+  text-align: end;
+  padding-right: 20px;
+  padding-top: 40px;
+}
 
-    color: white;
+@media(min-width:1024px){
+.HeaderInto{
+    display: none;
 }
-.text1{
-height: 200px;
-resize: none;
-}
-textarea::placeholder{
-    color: white;
-}
-.button{
+.headin{
     width: 100%;
-    height: 300px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+.header{
+    background: linear-gradient(to right, rgb(108, 108, 108), black, rgb(93, 93, 93));
+}
+.but{
+    width: 200px;
+}
+.top{
     display: flex;
     justify-content: center;
+    gap: 40px;
 }
-.send{
-    margin-top: 20px;
-    width: 200px;
-    height: 30px;
-    border-radius: 5px;
-    color: black;
-    font-weight: bolder;
-border: 1.5px solid #FF6600;
-background: white;
-    text-transform: uppercase;
-}
-.footerbottom{
-    width: 100%;
-    background-color: rgba(12, 12, 12, 0.875);
-    margin-top: 50px;
-}
-.zet2{
+.topbottom{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 10px;
-
+    gap: 50px;
+}
+.IMGme{
+    width: 400px;
+    justify-content: start;
+}
+.Me{
+    width: 400px;
+    display: flex;
+    justify-content: start;
+}
+.text{
+    width: 450px;
+    font-size: 20px;
+    border-radius: 0 200px 0 200px;
+    background-color: rgba(255, 166, 0, 0.364);
+    height: 330px;
+  background: #ff660094;
+  box-shadow: 0px 0px 50px  #ff6600;
+}
+.social{
+    padding-top: 40px;
+}
+.SpecBox {
+display: flex;
+flex-wrap: wrap;
+font-size: 40px;
+}
+.ContactME{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .services{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    gap: 30px;
-    padding-top: 20px;
-
+    font-size: 30px;
 }
 .mail{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    padding-top: 50px;
-    gap: 10px;
+    font-size: 30px;
 }
-.line{
-    width: 90%;
-    margin: auto;
-    border: 1px solid whitesmoke;
-    margin-top: 50px;
+.input{
+    width: 80%;
 }
-.end{
-    color: gray;
-    text-align: end;
-    padding-right: 20px;
-    padding-top: 40px;
 }

@@ -283,7 +283,7 @@ textarea::placeholder {
 .topbottom{
     width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 50px;
 }
@@ -297,7 +297,7 @@ textarea::placeholder {
     justify-content: start;
 }
 .text{
-    width: 450px;
+    width: 700px;
     font-size: 20px;
     border-radius: 0 200px 0 200px;
     background-color: rgba(255, 166, 0, 0.364);
@@ -328,5 +328,24 @@ font-size: 40px;
 }
 .input{
     width: 80%;
+}
+p:hover{
+    color: orange;
+    cursor: pointer;
+}
+button:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+img:hover{
+    cursor: pointer;
+    background-color: orange;
+}
+body{
+    position: relative;
+
+}
+.header{
+    position: sticky;
 }
 }

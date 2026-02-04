@@ -340,6 +340,7 @@ button:hover{
 img:hover{
     cursor: pointer;
     background-color: orange;
+    border-radius: 50px;
 }
 body{
     position: relative;

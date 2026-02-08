@@ -322,7 +322,7 @@ textarea::placeholder {
     border-radius: 0 200px 0 200px;
     background-color: rgba(255, 166, 0, 0.364);
     height: 330px;
-  background: linear-gradient(to bottom , red , white , green );
+  background: linear-gradient(to right, gray,white, gray);
   box-shadow: 0px 0px 50px  black;
 }
 .social{

@@ -338,13 +338,7 @@ display: flex;
 flex-wrap: wrap;
 font-size: 40px;
 }
-.ContactME{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
+
 .services{
     font-size: 30px;
 }
@@ -374,5 +368,18 @@ body{
 }
 .header{
     position: sticky;
+}
+.input{
+width: 100%;
+
+}
+.ContactME{
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+.i5{
+  grid-column: span 2;
 }
 }

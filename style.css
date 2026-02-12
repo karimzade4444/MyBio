@@ -30,9 +30,9 @@ body {
   width: 20%;
 }
 .HeaderBottom {
-  margin-top: 50px;
+  padding-top: 50px;
   width: 100%;
-  background-color: #ffffff;
+  background-color: #e5ded6;
 }
 .IMGme {
   width: 100%;
@@ -42,19 +42,13 @@ body {
 }
 .Me {
   width: 80%;
-  border-radius: 50px;
-  box-shadow: 0 0 30px rgb(0, 0, 0);
+  border-radius: 200px;
+  box-shadow: 0 0 50px rgb(0, 0, 0);
   border-bottom: 3px solid orange;
 }
 h1 {
-  background: linear-gradient(
-    90.48deg,
-    #ff6f00 0.34%,
-    #fd6f00 42.06%,
-    #ca5900 90.34%
-  );
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: #b49064;
+  -webkit-text-stroke:2px ;
 }
 .text {
   text-align: center;
@@ -80,9 +74,9 @@ h1 {
   width: 70%;
   height: 40px;
   border-radius: 50px;
-  border: 1.5px solid #ff6600;
-  background: #ff660094;
-  box-shadow: 0px 0px 50px 0px #ff6600be;
+  border: 1.5px solid #1f3242;
+  background: #1f3242;
+  box-shadow: 0px 0px 50px 0px #1f3242;
   color: white;
   text-transform: uppercase;
 }
@@ -124,7 +118,7 @@ h1 {
 }
 .Bodier {
   width: 100%;
-  background: linear-gradient(to bottom, rgb(18, 18, 18), gray, rgb(7, 7, 7));
+  background-color: #5e6772;
   margin-top: 20px;
   box-shadow: 0 0 20px black;
 }
@@ -142,7 +136,7 @@ h1 {
   width: 70px;
   height: 70px;
   border-radius: 50px;
-  border: 6px solid orange;
+  border: 6px solid #1f3242;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -160,17 +154,7 @@ h1 {
   gap: 30px;
   overflow: hidden;
 }
-.PBOX {
-  width: 400px;
-  height: 300px;
-  background: radial-gradient(circle, orange, rgb(0, 0, 0), orange);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  border-radius: 20px;
-  box-shadow: 0 0 30px rgba(255, 166, 0, 0.573);
-}
+
 .p2 , .p3{
   display: none;
 }
@@ -194,8 +178,8 @@ h1 {
   height: 40px;
   padding-left: 20px;
   border-radius: 20px;
-  border: 1.5px solid #ff6600;
-  background: #ff660094;
+  border: 1.5px solid #055698;
+  background: #1f3242;
   color: white;
 }
 input::placeholder {
@@ -219,15 +203,15 @@ textarea::placeholder {
   width: 200px;
   height: 30px;
   border-radius: 5px;
-  color: black;
+  color: #e5ded6;
   font-weight: bolder;
-  border: 1.5px solid #ff6600;
-  background: white;
+  border: 1.5px solid #052a91;
+  background: #1f3242;
   text-transform: uppercase;
 }
 .footerbottom {
   width: 100%;
-  background-color: rgba(12, 12, 12, 0.875);
+  background-color: rgba(12, 12, 12, 0.578);
   margin-top: 50px;
 }
 .zet2 {
@@ -316,15 +300,7 @@ textarea::placeholder {
   gap: 30px;
   overflow: hidden;
 }
-.text{
-    width: 700px;
-    font-size: 20px;
-    border-radius: 0 200px 0 200px;
-    background-color: rgba(255, 166, 0, 0.364);
-    height: 330px;
-  background: linear-gradient(to bottom , red , white , green );
-  box-shadow: 0px 0px 50px  black;
-}
+
 .social{
     padding-top: 40px;
 }
